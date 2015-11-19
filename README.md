@@ -10,3 +10,5 @@ If possible I will try to add headers for a Teensy, as that's the interface I us
 
 One problem will be to share the SPI between the Ethernet chip (probably WIZ5100) and the ADS8344 converters. I can't really use a different ADC as I have way too many of them in stock. But as I don't want to rewrite the existing Ethernet libraries I'd also prefer to stay with an existing solution. 
 So I'll have to figure out wether SPI could be shared in a way that would allow for acceptable update rates.
+
+This repository will include both board files in Eagle format and Arduino source code.
