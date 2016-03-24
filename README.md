@@ -12,3 +12,4 @@ One problem will be to share the SPI between the Ethernet chip (probably WIZ5100
 So I'll have to figure out wether SPI could be shared in a way that would allow for acceptable update rates.
 
 This repository will include both board files in Eagle format and Arduino source code.
+
